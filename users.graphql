@@ -1,0 +1,66 @@
+query ($after: String) {
+  user(login: "ghqc") {
+    id
+    databaseId
+    following(first: 20, after: $after) {
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      totalCount
+      nodes {
+        createdAt
+        updatedAt
+        avatarUrl
+        email
+        followers {
+          totalCount
+        }
+        following {
+          totalCount
+        }
+        publicKeys {
+          totalCount
+        }
+        watching {
+          totalCount
+        }
+        starredRepositories {
+          totalCount
+        }
+        id
+        databaseId
+        login
+        name
+        company
+        location
+        bio
+        isBountyHunter
+        isCampusExpert
+        isEmployee
+        isHireable
+        isSiteAdmin
+        isDeveloperProgramMember
+        organizations(first: 100) {
+          totalCount
+          nodes {
+            id
+            databaseId
+            login
+            name
+            description
+          }
+        }
+        websiteUrl
+        repositories {
+          totalCount
+          totalDiskUsage
+        }
+        repositoriesContributedTo {
+          totalCount
+          totalDiskUsage
+        }
+      }
+    }
+  }
+}
