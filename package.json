@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "license": "AGPL-3.0",
   "dependencies": {
+    "delay": "^4.3.0",
     "got": "^9.6.0",
-    "jsonstream2": "^2.0.1",
-    "level": "^5.0.1"
+    "level": "^5.0.1",
+    "through2": "^3.0.1"
   }
 }
