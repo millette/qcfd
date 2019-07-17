@@ -1,8 +1,8 @@
-query ($after: String) {
+query ($perPage: Int!, $after: String) {
   user(login: "ghqc") {
     id
     databaseId
-    following(first: 20, after: $after) {
+    following(first: $perPage, after: $after) {
       pageInfo {
         hasNextPage
         endCursor
