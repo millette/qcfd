@@ -5,6 +5,8 @@
 const level = require("level")
 
 const db = level('dbdbdoo', { valueEncoding: 'json' })
+
+/*
 const stuff = new Map()
 
 const split = (key) => {
@@ -30,12 +32,22 @@ db.createKeyStream({
 })
   .on('data', split)
   .on('end', done)
-
-/*
-db.createReadStream({
-    gt: 'userId:',
-    lt: 'userId:\ufff0',
-  })
-  .on('data', console.log)
-  .on('end', () => console.log('done!'))
 */
+
+const show = ({ defaultBranchRef, nameWithOwner }) => {
+  if (!defaultBranchRef) return
+  const { name} = defaultBranchRef
+
+  https://raw.githubusercontent.com/ubik23/charactercreator/master/src2/
+  console.log(`https://raw.githubusercontent.com/${nameWithOwner}/${name}/.github/FUNDING.yml`)
+  // console.log(nameWithOwner, name)
+}
+
+db.createValueStream({
+    gt: 'repo:',
+    lt: 'repo:\ufff0',
+    // gt: 'userId:',
+    // lt: 'userId:\ufff0',
+  })
+  .on('data', show)
+  .on('end', () => console.log('done!'))
