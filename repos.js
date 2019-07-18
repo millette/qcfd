@@ -84,7 +84,7 @@ const getBatch = (o) => {
   return got("https://api.github.com/graphql", { ...gotOpts, body }).then(yup).then(() => null)
 }
 
-const tr = through.obj(({ login, ...data }, enc, cb) => {
+const tr = () => through.obj(({ login, ...data }, enc, cb) => {
   if (!(data.repositoriesContributedTo && data.repositoriesContributedTo.totalCount)) {
     console.log('No repos for', login)
     return cb()
@@ -102,7 +102,7 @@ const str = db.createValueStream({
   lt: 'userId:\ufff0',
 })
 
-pipeline(str, tr, (err) => {
+pipeline(str, tr(), (err) => {
   if (err) return console.error(err)
   console.log("Done!")
 })
