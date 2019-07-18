@@ -30,6 +30,7 @@ See [funds.json](funds.json) for the initial results.
 
 ## What's next?
 
+* French (doh!)
 * Charts
 * Data updates
 * Use Etags (querying 210,000 URLs takes a toll)
