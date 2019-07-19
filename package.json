@@ -10,5 +10,10 @@
     "level": "^5.0.1",
     "stdout": "0.0.3",
     "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "vega-embed": "^4.2.1",
+    "vega-lite": "^2.7.0"
   }
 }
