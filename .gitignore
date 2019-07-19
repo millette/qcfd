@@ -13,3 +13,5 @@ users-v0.js
 was-readdb.js.d.ts
 wrk/
 with-funding.txt
+.cache/
+dist/
