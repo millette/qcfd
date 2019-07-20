@@ -17,8 +17,9 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
+    "vega": "^5.4.0",
     "vega-embed": "^4.2.1",
-    "vega-lite": "^2.7.0",
+    "vega-lite": "^3.0.0",
     "water.css": "kognise/water.css#28a84ab3f683c517529ac45dfbfad5df221d6cf4"
   }
 }
