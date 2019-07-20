@@ -5,7 +5,7 @@
   "scripts": {
     "build": "parcel build index.html --no-source-maps",
     "clean": "rm -fr .cache/ dist/",
-    "deploy": "rm -fr .cache/ dist/ && parcel build index.html --no-source-maps && gh-pages -d dist",
+    "deploy": "parcel build index.html --no-source-maps --public-url /qcfd && gh-pages -d dist",
     "dev": "parcel index.html"
   },
   "dependencies": {
