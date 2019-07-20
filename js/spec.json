@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+  "title": "Funding \"Québec\" projects and developers",
+  "data": { "name": "funding" },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "title": "Platform",
+      "sort": { "encoding": "y", "order": "descending" },
+      "field": "type",
+      "type": "nominal"
+    },
+    "y": {
+      "title": "Count",
+      "aggregate": "count",
+      "field": "type",
+      "type": "quantitative"
+    },
+    "color": {
+      "title": "Platform",
+      "sort": { "encoding": "y", "order": "descending" },
+      "field": "type",
+      "type": "nominal"
+    }
+  }
+}
