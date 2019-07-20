@@ -5,6 +5,7 @@
   "scripts": {
     "build": "parcel build index.html --no-source-maps",
     "clean": "rm -fr .cache/ dist/",
+    "deploy": "rm -fr .cache/ dist/ && parcel build index.html --no-source-maps && gh-pages -d dist",
     "dev": "parcel index.html"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
     "through2": "^3.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "parcel-bundler": "^1.12.3",
     "vega": "^5.4.0",
     "vega-embed": "^4.2.1",
