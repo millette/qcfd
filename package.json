@@ -2,6 +2,7 @@
   "name": "qcfd",
   "version": "0.0.0",
   "license": "AGPL-3.0",
+  "module": "js/show",
   "scripts": {
     "build": "parcel build index.html --no-source-maps",
     "clean": "rm -fr .cache/ dist/",
