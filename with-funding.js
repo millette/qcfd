@@ -10,11 +10,7 @@ const db = level('dbdbdoo', { valueEncoding: 'json' })
 
 const onData = ({ key, value }) => {
   const [, repo, user] = key.split(':')
-  // console.log(funds[0], key, repo, user)
-  // throw(new Error('CIAO'))
   if (funds.indexOf(repo) === -1) return
-  // console.log('checking...')
-  // throw(new Error('CIAO'))
   db.get(value)
     .then((x) => {
       console.log(user)
