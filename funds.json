@@ -30,10 +30,22 @@
     }
   },
   {
+    "repo": "Aminaba123/pandas-videos",
+    "funding": {
+      "patreon": "dataschool"
+    }
+  },
+  {
     "repo": "AndyBaiMQC/PythonRobotics",
     "funding": {
       "patreon": "myenigma",
       "custom": "https://www.paypal.me/myenigmapay/"
+    }
+  },
+  {
+    "repo": "AvaloniaUI/Avalonia",
+    "funding": {
+      "open_collective": "avalonia"
     }
   },
   {
@@ -42,12 +54,6 @@
       "github": "vkarpov15",
       "open_collective": "mongoose",
       "tidelift": "npm/mongoose"
-    }
-  },
-  {
-    "repo": "AvaloniaUI/Avalonia",
-    "funding": {
-      "open_collective": "avalonia"
     }
   },
   {
@@ -142,6 +148,12 @@
       "github": "Fuco1",
       "patreon": "matusgoljer",
       "custom": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A5PMGVKCQBT88"
+    }
+  },
+  {
+    "repo": "GabLeRoux/jsonschema",
+    "funding": {
+      "tidelift": "pypi/jsonschema"
     }
   },
   {
@@ -293,16 +305,16 @@
     }
   },
   {
-    "repo": "KillerCodeMonkey/ngx-quill",
-    "funding": {
-      "custom": "PayPal.Me/bengtler"
-    }
-  },
-  {
     "repo": "Koenkk/zigbee2mqtt",
     "funding": {
       "github": "koenkk",
       "custom": "https://www.paypal.me/koenkk"
+    }
+  },
+  {
+    "repo": "KillerCodeMonkey/ngx-quill",
+    "funding": {
+      "custom": "PayPal.Me/bengtler"
     }
   },
   {
@@ -373,6 +385,12 @@
     }
   },
   {
+    "repo": "NixOS/nixpkgs-channels",
+    "funding": {
+      "custom": "https://nixos.org/nixos/foundation.html"
+    }
+  },
+  {
     "repo": "OSSIA/score",
     "funding": {
       "github": "jcelerier",
@@ -392,17 +410,17 @@
     }
   },
   {
-    "repo": "OperationCode/front-end",
-    "funding": {
-      "custom": "https://secure.lglforms.com/form_engine/s/BRtP7QUKyHOyEYsZROsRew"
-    }
-  },
-  {
     "repo": "Pathoschild/SMAPI",
     "funding": {
       "patreon": "pathoschild",
       "ko_fi": "pathoschild",
       "custom": "https://www.paypal.me/pathoschild"
+    }
+  },
+  {
+    "repo": "OperationCode/front-end",
+    "funding": {
+      "custom": "https://secure.lglforms.com/form_engine/s/BRtP7QUKyHOyEYsZROsRew"
     }
   },
   {
@@ -445,15 +463,15 @@
     }
   },
   {
-    "repo": "SanderSpies/ocaml",
-    "funding": {
-      "github": "sanderspies"
-    }
-  },
-  {
     "repo": "SaltieRL/DistributedReplays",
     "funding": {
       "patreon": "calculated"
+    }
+  },
+  {
+    "repo": "SanderSpies/ocaml",
+    "funding": {
+      "github": "sanderspies"
     }
   },
   {
@@ -712,12 +730,6 @@
     }
   },
   {
-    "repo": "NixOS/nixpkgs-channels",
-    "funding": {
-      "custom": "https://nixos.org/nixos/foundation.html"
-    }
-  },
-  {
     "repo": "afollestad/material-dialogs",
     "funding": {
       "github": "afollestad",
@@ -741,12 +753,6 @@
     "funding": {
       "github": "ljharb",
       "tidelift": "npm/enzyme"
-    }
-  },
-  {
-    "repo": "ajpinedam/ReactiveUI",
-    "funding": {
-      "open_collective": "reactiveui"
     }
   },
   {
@@ -792,6 +798,12 @@
     "repo": "andywer/threads.js",
     "funding": {
       "github": "andywer"
+    }
+  },
+  {
+    "repo": "ajpinedam/ReactiveUI",
+    "funding": {
+      "open_collective": "reactiveui"
     }
   },
   {
@@ -918,12 +930,6 @@
     }
   },
   {
-    "repo": "bennypowers/stripe-elements",
-    "funding": {
-      "github": "bennypowers"
-    }
-  },
-  {
     "repo": "betaflight/betaflight",
     "funding": {
       "custom": "https://paypal.me/betaflight",
@@ -937,15 +943,21 @@
     }
   },
   {
+    "repo": "bithost-gmbh/ngx-mat-select-search",
+    "funding": {
+      "custom": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NAX558HVGAX8Q"
+    }
+  },
+  {
     "repo": "binogure-studio/city-game-studio-i18n",
     "funding": {
       "custom": "https://binogure.itch.io/city-game-studio"
     }
   },
   {
-    "repo": "bithost-gmbh/ngx-mat-select-search",
+    "repo": "bennypowers/stripe-elements",
     "funding": {
-      "custom": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NAX558HVGAX8Q"
+      "github": "bennypowers"
     }
   },
   {
@@ -953,12 +965,6 @@
     "funding": {
       "patreon": "bjorn",
       "liberapay": "tiled"
-    }
-  },
-  {
-    "repo": "bluebill1049/react-hook-form",
-    "funding": {
-      "patreon": "bluebill1049"
     }
   },
   {
@@ -976,6 +982,12 @@
     }
   },
   {
+    "repo": "bluebill1049/react-hook-form",
+    "funding": {
+      "patreon": "bluebill1049"
+    }
+  },
+  {
     "repo": "bonigarcia/selenium-jupiter",
     "funding": {
       "open_collective": "selenium-jupiter"
@@ -988,15 +1000,21 @@
     }
   },
   {
-    "repo": "btzr-io/jelly-beats",
+    "repo": "browserify/browserify",
     "funding": {
-      "custom": "https://github.com/btzr-io/jelly-beats/blob/master/README.md#heart-support"
+      "tidelift": "npm/browserify"
     }
   },
   {
     "repo": "buefy/buefy",
     "funding": {
       "patreon": "jtommy"
+    }
+  },
+  {
+    "repo": "btzr-io/jelly-beats",
+    "funding": {
+      "custom": "https://github.com/btzr-io/jelly-beats/blob/master/README.md#heart-support"
     }
   },
   {
@@ -1016,6 +1034,12 @@
     "funding": {
       "open_collective": "icecream",
       "custom": "https://www.paypal.me/yuecai"
+    }
+  },
+  {
+    "repo": "carpentries/carpentries.org",
+    "funding": {
+      "custom": "https://carpentries.wedid.it/"
     }
   },
   {
@@ -1083,18 +1107,18 @@
     }
   },
   {
+    "repo": "codesandbox/codesandbox-client",
+    "funding": {
+      "open_collective": "codesandbox",
+      "custom": "https://codesandbox.io/patron"
+    }
+  },
+  {
     "repo": "clojure-emacs/cider",
     "funding": {
       "patreon": "bbatsov",
       "open_collective": "cider",
       "custom": "https://www.paypal.me/bbatsov"
-    }
-  },
-  {
-    "repo": "codesandbox/codesandbox-client",
-    "funding": {
-      "open_collective": "codesandbox",
-      "custom": "https://codesandbox.io/patron"
     }
   },
   {
@@ -1204,10 +1228,45 @@
     }
   },
   {
+    "repo": "dendisuhubdy/create-portfolio",
+    "funding": {
+      "patreon": "egoist",
+      "open_collective": "saber",
+      "ko_fi": "support_egoist"
+    }
+  },
+  {
     "repo": "decathorpe/elementary-nightly-rpms",
     "funding": {
       "github": "decathorpe",
       "patreon": "decathorpe"
+    }
+  },
+  {
+    "repo": "dendisuhubdy/ioredis",
+    "funding": {
+      "github": "luin",
+      "open_collective": "ioredis"
+    }
+  },
+  {
+    "repo": "dendisuhubdy/json-cpp",
+    "funding": {
+      "custom": "http://paypal.me/nlohmann"
+    }
+  },
+  {
+    "repo": "dendisuhubdy/multrin",
+    "funding": {
+      "github": "sentialx",
+      "patreon": "sentialx",
+      "open_collective": "multrin"
+    }
+  },
+  {
+    "repo": "dendisuhubdy/react-firebase-authentication",
+    "funding": {
+      "patreon": "rwieruch"
     }
   },
   {
@@ -1249,17 +1308,17 @@
     }
   },
   {
-    "repo": "dlq/wodensdag",
-    "funding": {
-      "github": "dlq"
-    }
-  },
-  {
     "repo": "doctrine/DoctrineBundle",
     "funding": {
       "patreon": "phpdoctrine",
       "tidelift": "packagist/doctrine%2Fdoctrine-bundle",
       "custom": "https://www.doctrine-project.org/sponsorship.html"
+    }
+  },
+  {
+    "repo": "dlq/wodensdag",
+    "funding": {
+      "github": "dlq"
     }
   },
   {
@@ -1327,12 +1386,6 @@
     }
   },
   {
-    "repo": "eegkno/pytest",
-    "funding": {
-      "tidelift": "pypi/pytest"
-    }
-  },
-  {
     "repo": "eilst/pizzaql",
     "funding": {
       "github": "xxczaki",
@@ -1341,11 +1394,25 @@
     }
   },
   {
+    "repo": "eegkno/pytest",
+    "funding": {
+      "tidelift": "pypi/pytest"
+    }
+  },
+  {
     "repo": "electron-react-boilerplate/electron-react-boilerplate",
     "funding": {
       "github": "amilajack",
       "patreon": "amilajack",
       "open_collective": "electron-react-boilerplate-594"
+    }
+  },
+  {
+    "repo": "emacscollective/no-littering",
+    "funding": {
+      "custom": "https://emacsair.me/about",
+      "github": "tarsius",
+      "patreon": "tarsius"
     }
   },
   {
@@ -1399,16 +1466,16 @@
     }
   },
   {
+    "repo": "f/vue-wait",
+    "funding": {
+      "patreon": "fka"
+    }
+  },
+  {
     "repo": "euvl/vue-js-modal",
     "funding": {
       "github": "euvl",
       "ko_fi": "yevyev"
-    }
-  },
-  {
-    "repo": "f/vue-wait",
-    "funding": {
-      "patreon": "fka"
     }
   },
   {
@@ -1461,16 +1528,16 @@
     }
   },
   {
-    "repo": "feathersjs/feathers",
-    "funding": {
-      "open_collective": "feathers"
-    }
-  },
-  {
     "repo": "fed135/ha-store",
     "funding": {
       "github": "fed135",
       "open_collective": "fredericcharette"
+    }
+  },
+  {
+    "repo": "feathersjs/feathers",
+    "funding": {
+      "open_collective": "feathers"
     }
   },
   {
@@ -1615,9 +1682,21 @@
     }
   },
   {
+    "repo": "h3/Popbot",
+    "funding": {
+      "ko_fi": "merwanedr"
+    }
+  },
+  {
     "repo": "gregsdennis/Manatee.Trello",
     "funding": {
       "ko_fi": "gregsdennis"
+    }
+  },
+  {
+    "repo": "h3/Vusion",
+    "funding": {
+      "ko_fi": "merwanedr"
     }
   },
   {
@@ -1630,6 +1709,12 @@
     "repo": "haskell-servant/servant",
     "funding": {
       "custom": "https://github.com/haskell-servant/haskell-servant.github.io/blob/hakyll/consultancies.md"
+    }
+  },
+  {
+    "repo": "helfi92/date-fns",
+    "funding": {
+      "open_collective": "date-fns"
     }
   },
   {
@@ -1877,15 +1962,15 @@
     }
   },
   {
-    "repo": "kamranahmedse/developer-roadmap",
-    "funding": {
-      "custom": "https://paypal.me/kamranahmedse"
-    }
-  },
-  {
     "repo": "karafka/karafka",
     "funding": {
       "open_collective": "karafka"
+    }
+  },
+  {
+    "repo": "kamranahmedse/developer-roadmap",
+    "funding": {
+      "custom": "https://paypal.me/kamranahmedse"
     }
   },
   {
@@ -1900,6 +1985,15 @@
     "repo": "kevinpapst/kimai2",
     "funding": {
       "custom": "https://www.kimai.org/donate/"
+    }
+  },
+  {
+    "repo": "killix/vue",
+    "funding": {
+      "github": "yyx990803",
+      "patreon": "evanyou",
+      "open_collective": "vuejs",
+      "tidelift": "npm/vue"
     }
   },
   {
@@ -1942,6 +2036,13 @@
     }
   },
   {
+    "repo": "l1kw1d/lazydocker",
+    "funding": {
+      "ko_fi": "jesseduffield",
+      "custom": "https://donorbox.org/lazydocker"
+    }
+  },
+  {
     "repo": "kyb3r/modmail",
     "funding": {
       "patreon": "kyber"
@@ -1970,18 +2071,18 @@
     }
   },
   {
-    "repo": "leon-ai/leon",
-    "funding": {
-      "custom": "https://donate.getleon.ai"
-    }
-  },
-  {
     "repo": "ldionne/out_ptr",
     "funding": {
       "github": "ThePhD",
       "patreon": "ThePhD",
       "ko_fi": "ThePhD",
       "custom": "https://liberapay.com/ThePhD/"
+    }
+  },
+  {
+    "repo": "leon-ai/leon",
+    "funding": {
+      "custom": "https://donate.getleon.ai"
     }
   },
   {
@@ -2175,6 +2276,12 @@
     }
   },
   {
+    "repo": "mathieujobin/homebrew-kde",
+    "funding": {
+      "patreon": "kde_mac"
+    }
+  },
+  {
     "repo": "matplotlib/matplotlib",
     "funding": {
       "custom": "https://numfocus.salsalabs.org/donate-to-matplotlib/index.html"
@@ -2299,16 +2406,16 @@
     }
   },
   {
+    "repo": "montezume/minimal-react-webpack-babel-setup",
+    "funding": {
+      "patreon": "rwieruch"
+    }
+  },
+  {
     "repo": "montezume/flopflip",
     "funding": {
       "ko_fi": "tdeekens",
       "custom": "https://paypal.me/tdeekens"
-    }
-  },
-  {
-    "repo": "montezume/minimal-react-webpack-babel-setup",
-    "funding": {
-      "patreon": "rwieruch"
     }
   },
   {
@@ -2331,12 +2438,6 @@
     }
   },
   {
-    "repo": "mui-org/material-ui-pickers",
-    "funding": {
-      "patreon": "dmtrKovalenko"
-    }
-  },
-  {
     "repo": "mumble-voip/mumble",
     "funding": {
       "custom": "https://salt.bountysource.com/teams/mumble-voip"
@@ -2346,6 +2447,12 @@
     "repo": "mzur/kirby-uniform",
     "funding": {
       "custom": "https://www.paypal.me/mzur/10eur"
+    }
+  },
+  {
+    "repo": "mui-org/material-ui-pickers",
+    "funding": {
+      "patreon": "dmtrKovalenko"
     }
   },
   {
@@ -2387,15 +2494,15 @@
     }
   },
   {
-    "repo": "nextcloud/server",
-    "funding": {
-      "custom": "https://www.bountysource.com/teams/nextcloud"
-    }
-  },
-  {
     "repo": "ngrx/platform",
     "funding": {
       "open_collective": "ngrx"
+    }
+  },
+  {
+    "repo": "nextcloud/server",
+    "funding": {
+      "custom": "https://www.bountysource.com/teams/nextcloud"
     }
   },
   {
@@ -2479,6 +2586,13 @@
     }
   },
   {
+    "repo": "obsproject/obs-studio",
+    "funding": {
+      "open_collective": "obsproject",
+      "patreon": "obsproject"
+    }
+  },
+  {
     "repo": "octobercms/october",
     "funding": {
       "custom": "https://octobercms.com/fundraising",
@@ -2500,13 +2614,6 @@
     "repo": "ohler55/oj",
     "funding": {
       "tidelift": "rubygems/oj"
-    }
-  },
-  {
-    "repo": "obsproject/obs-studio",
-    "funding": {
-      "open_collective": "obsproject",
-      "patreon": "obsproject"
     }
   },
   {
@@ -2546,19 +2653,19 @@
     }
   },
   {
+    "repo": "ory/oathkeeper",
+    "funding": {
+      "patreon": "_ory",
+      "open_collective": "ory"
+    }
+  },
+  {
     "repo": "ovhemert/gatsby-plugin-zopfli",
     "funding": {
       "github": "ovhemert",
       "patreon": "ovhemert",
       "ko_fi": "ovhemert",
       "custom": "ovhemert.dev/donate"
-    }
-  },
-  {
-    "repo": "ory/oathkeeper",
-    "funding": {
-      "patreon": "_ory",
-      "open_collective": "ory"
     }
   },
   {
@@ -2725,13 +2832,13 @@
     }
   },
   {
-    "repo": "plotly/angular-plotly.js",
+    "repo": "plotly/dash",
     "funding": {
       "custom": "https://plot.ly/products/consulting-and-oem/"
     }
   },
   {
-    "repo": "plotly/dash",
+    "repo": "plotly/angular-plotly.js",
     "funding": {
       "custom": "https://plot.ly/products/consulting-and-oem/"
     }
@@ -2887,12 +2994,6 @@
     }
   },
   {
-    "repo": "plotly/react-plotly.js",
-    "funding": {
-      "custom": "https://plot.ly/products/consulting-and-oem/"
-    }
-  },
-  {
     "repo": "plouc/nivo",
     "funding": {
       "github": "plouc",
@@ -2905,6 +3006,12 @@
       "github": "bbatsov",
       "patreon": "bbatsov",
       "open_collective": "nrepl"
+    }
+  },
+  {
+    "repo": "plotly/react-plotly.js",
+    "funding": {
+      "custom": "https://plot.ly/products/consulting-and-oem/"
     }
   },
   {
@@ -2922,27 +3029,27 @@
     }
   },
   {
-    "repo": "ponylang/ponyc",
-    "funding": {
-      "open_collective": "ponyc"
-    }
-  },
-  {
-    "repo": "poplarShift/matplotlib",
-    "funding": {
-      "custom": "https://numfocus.salsalabs.org/donate-to-matplotlib/index.html"
-    }
-  },
-  {
     "repo": "ppy/osu",
     "funding": {
       "custom": "https://osu.ppy.sh/home/support"
     }
   },
   {
+    "repo": "ponylang/ponyc",
+    "funding": {
+      "open_collective": "ponyc"
+    }
+  },
+  {
     "repo": "pqina/filepond",
     "funding": {
       "patreon": "rikschennink"
+    }
+  },
+  {
+    "repo": "poplarShift/matplotlib",
+    "funding": {
+      "custom": "https://numfocus.salsalabs.org/donate-to-matplotlib/index.html"
     }
   },
   {
@@ -2954,22 +3061,16 @@
     }
   },
   {
-    "repo": "preactjs/preact",
+    "repo": "prettier/prettier",
     "funding": {
-      "open_collective": "preact"
+      "tidelift": "npm/prettier",
+      "open_collective": "prettier"
     }
   },
   {
     "repo": "pretalx/pretalx",
     "funding": {
       "patreon": "rixx"
-    }
-  },
-  {
-    "repo": "prettier/prettier",
-    "funding": {
-      "tidelift": "npm/prettier",
-      "open_collective": "prettier"
     }
   },
   {
@@ -2987,24 +3088,6 @@
     }
   },
   {
-    "repo": "processing/p5.js",
-    "funding": {
-      "custom": "https://processingfoundation.org/support"
-    }
-  },
-  {
-    "repo": "proyecto26/react-native-inappbrowser",
-    "funding": {
-      "github": "jdnichollsc",
-      "patreon": "proyecto26",
-      "open_collective": "proyecto26",
-      "ko_fi": "proyecto26",
-      "tidelift": "npm/react-native-inappbrowser-reborn",
-      "liberapay": "jdnichollsc",
-      "custom": "paypal.me/jdnichollsc"
-    }
-  },
-  {
     "repo": "prysmaticlabs/prysm",
     "funding": {
       "custom": "https://gitcoin.co/grants/24/prysm-by-prysmatic-labs"
@@ -3014,6 +3097,12 @@
     "repo": "purpleidea/mgmt",
     "funding": {
       "patreon": "purpleidea"
+    }
+  },
+  {
+    "repo": "processing/p5.js",
+    "funding": {
+      "custom": "https://processingfoundation.org/support"
     }
   },
   {
@@ -3033,6 +3122,24 @@
     "repo": "python/cpython",
     "funding": {
       "custom": "https://www.python.org/psf/donations/python-dev/"
+    }
+  },
+  {
+    "repo": "preactjs/preact",
+    "funding": {
+      "open_collective": "preact"
+    }
+  },
+  {
+    "repo": "proyecto26/react-native-inappbrowser",
+    "funding": {
+      "github": "jdnichollsc",
+      "patreon": "proyecto26",
+      "open_collective": "proyecto26",
+      "ko_fi": "proyecto26",
+      "tidelift": "npm/react-native-inappbrowser-reborn",
+      "liberapay": "jdnichollsc",
+      "custom": "paypal.me/jdnichollsc"
     }
   },
   {
@@ -3086,17 +3193,17 @@
     }
   },
   {
-    "repo": "raysan5/raylib",
-    "funding": {
-      "patreon": "raylib",
-      "ko_fi": "raysan"
-    }
-  },
-  {
     "repo": "react-native-community/react-native-camera",
     "funding": {
       "open_collective": "react-native-camera",
       "tidelift": "npm/react-native-camera"
+    }
+  },
+  {
+    "repo": "raysan5/raylib",
+    "funding": {
+      "patreon": "raylib",
+      "ko_fi": "raysan"
     }
   },
   {
@@ -3132,6 +3239,18 @@
     }
   },
   {
+    "repo": "remy/nodemon",
+    "funding": {
+      "open_collective": "nodemon"
+    }
+  },
+  {
+    "repo": "revery-ui/revery",
+    "funding": {
+      "open_collective": "revery"
+    }
+  },
+  {
     "repo": "rectorphp/rector",
     "funding": {
       "patreon": "rectorphp",
@@ -3139,22 +3258,10 @@
     }
   },
   {
-    "repo": "remy/nodemon",
-    "funding": {
-      "open_collective": "nodemon"
-    }
-  },
-  {
     "repo": "remychvn/vue-agile",
     "funding": {
       "github": "lukaszflorczak",
       "ko_fi": "lukaszflorczak"
-    }
-  },
-  {
-    "repo": "revery-ui/revery",
-    "funding": {
-      "open_collective": "revery"
     }
   },
   {
@@ -3842,16 +3949,16 @@
     }
   },
   {
-    "repo": "zkat/npx",
-    "funding": {
-      "github": "zkat"
-    }
-  },
-  {
     "repo": "znat/vuepress",
     "funding": {
       "github": "ulivz",
       "patreon": "ulivz"
+    }
+  },
+  {
+    "repo": "zkat/npx",
+    "funding": {
+      "github": "zkat"
     }
   },
   {
