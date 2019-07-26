@@ -1,0 +1,37 @@
+query ($login: String!, $after: String, $perPage: Int!)
+{
+  user(login: $login) {
+    login
+    repositoriesContributedTo(first: $perPage, after: $after) {
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      totalCount
+      totalDiskUsage
+      nodes {
+        createdAt
+        updatedAt
+        description
+        homepageUrl
+        licenseInfo {
+          spdxId
+          name
+          nickname
+        }
+
+        defaultBranchRef {
+          name
+        }
+
+        diskUsage
+        id
+        databaseId
+        nameWithOwner
+        primaryLanguage {
+          name
+        }
+      }
+    }
+  }
+}
