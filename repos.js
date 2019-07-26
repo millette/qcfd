@@ -49,7 +49,7 @@ const yup = ({ body, headers }) => {
     console.error(headers)
     throw new Error('No data')
   }
-  const { data: { user: { login, repositoriesContributedTo: { nodes } } } } = body
+  const { data: { user: { login, repositories: { nodes } } } } = body
 
   const batch = []
   nodes.forEach((repo) => {
@@ -76,20 +76,28 @@ const yup = ({ body, headers }) => {
   return db.batch(batch)
 }
 
-const getBatch = (o) => {
+const getBatch = async (o) => {
+  // let after
+  do {
+    const b = await getBatchPage(o)
+    await yup(b)
+    const { data: { user: { repositories: { pageInfo: { hasNextPage, endCursor } } } } } = b.body
+    o.after = hasNextPage ? endCursor : undefined
+  } while (o.after)
+}
+
+const getBatchPage = (o) => {
   if (!o) return null
   const { after, login } = o
   body.variables.after = after
   body.variables.login = login
-  return got("https://api.github.com/graphql", { ...gotOpts, body }).then(yup).then(() => null)
+  return got("https://api.github.com/graphql", { ...gotOpts, body })
 }
 
-const tr = () => through.obj(({ login, ...data }, enc, cb) => {
-  if (!(data.repositoriesContributedTo && data.repositoriesContributedTo.totalCount)) {
-    console.log('No repos for', login)
-    return cb()
-  }
-  console.log(`${data.repositoriesContributedTo.totalCount} repos for ${login}`)
+const tr = through.obj(({ login, ...data }, enc, cb) => {
+  if (!(data.repositories && (data.repositories.totalCount > 100))) return cb()
+
+  console.log(`${data.repositories.totalCount} repos for ${login}`)
 
   beenThere(login)
     .then(getBatch)
@@ -102,7 +110,7 @@ const str = db.createValueStream({
   lt: 'userId:\ufff0',
 })
 
-pipeline(str, tr(), (err) => {
+pipeline(str, tr, (err) => {
   if (err) return console.error(err)
-  console.log("Done!")
+  console.error("Done!")
 })

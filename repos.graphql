@@ -2,7 +2,7 @@ query ($login: String!, $after: String, $perPage: Int!)
 {
   user(login: $login) {
     login
-    repositoriesContributedTo(first: $perPage, after: $after) {
+    repositories(first: $perPage, after: $after) {
       pageInfo {
         hasNextPage
         endCursor
