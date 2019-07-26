@@ -34,6 +34,7 @@ db.createKeyStream({
   .on('end', done)
 */
 
+/*
 const show = ({ defaultBranchRef, nameWithOwner }) => {
   if (!defaultBranchRef) return
   const { name} = defaultBranchRef
@@ -51,3 +52,13 @@ db.createValueStream({
   })
   .on('data', show)
   .on('end', () => console.log('done!'))
+*/
+
+db.createKeyStream({
+  // gt: 'repo:',
+  // lt: 'repo:\ufff0',
+  // gt: 'userId:',
+  // lt: 'userId:\ufff0',
+})
+.on('data', console.log)
+.on('end', () => console.error('done!'))
