@@ -4,10 +4,11 @@
 const level = require("level")
 
 // self
-const funds = require('./funds.json').map(({repo}) => repo).sort()
+// const funds = require('./funds.json').map(({repo}) => repo).sort()
 
 const db = level('dbdbdoo', { valueEncoding: 'json' })
 
+/*
 const onData = ({ key, value }) => {
   const [, repo, user] = key.split(':')
   if (funds.indexOf(repo) === -1) return
@@ -29,6 +30,8 @@ db.createReadStream({
 })
 .on('data', onData)
 .once('end', () => console.error('done!'))
+*/
+
 
 /*
 const stuff = new Map()
@@ -58,13 +61,12 @@ db.createKeyStream({
   .once('end', done)
 */
 
-/*
-const show = ({ defaultBranchRef, nameWithOwner }) => {
+const show = ({ defaultBranchRef, nameWithOwner, ...rest }) => {
   if (!defaultBranchRef) return
-  const { name} = defaultBranchRef
+  const { name } = defaultBranchRef
 
-  https://raw.githubusercontent.com/ubik23/charactercreator/master/src2/
-  console.log(`https://raw.githubusercontent.com/${nameWithOwner}/${name}/.github/FUNDING.yml`)
+  // https://raw.githubusercontent.com/ubik23/charactercreator/master/src2/
+  console.log({ ...rest, furl: `https://raw.githubusercontent.com/${nameWithOwner}/${name}/.github/FUNDING.yml` })
   // console.log(nameWithOwner, name)
 }
 
@@ -75,5 +77,4 @@ db.createValueStream({
     // lt: 'userId:\ufff0',
   })
   .on('data', show)
-  .once('end', () => console.log('done!'))
-*/
+  .once('end', () => console.error('done!'))
